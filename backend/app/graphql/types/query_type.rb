@@ -13,5 +13,8 @@ module Types
     def test_field
       "Hello World!"
     end
+
+    field :shops, Resolver: Queries::Shops
+    field :shop, Resolver: Queries::Shop
   end
 end
